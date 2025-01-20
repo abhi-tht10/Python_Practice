@@ -34,5 +34,19 @@ class School:
     def add_student(self, student):
         self.students.append(student)
     
+    def add_staff(self, staff):
+        self.staff.append(staff)
+    
+    def get_students(self):
+        return self.students
+    
+    def get_staff(self):
+        return self.staff
 
+s1 = Student("Kyle",20,99.2)
+s2 = Student("Julie", 21, 93.5)
 
+college1 = School("Columbia")
+college1.add_student(s1)
+college1.add_student(s2)
+print(college1.get_students())
