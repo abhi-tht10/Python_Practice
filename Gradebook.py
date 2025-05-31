@@ -51,3 +51,8 @@ print(college1.get_students())
 
 while college1.get_staff:
     print(s1.get_name)
+
+x = 10
+y = 5
+
+print(x+y)
